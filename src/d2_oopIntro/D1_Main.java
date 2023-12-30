@@ -157,7 +157,7 @@ public class D1_Main {
 
 
 
-        System.out.println("\n----------bir metodun cagirilmasi----------------\n");
+        System.out.println("\n----------bir metodun obje ile cagirilmasi----------------\n");
 
         D2_ProductManager productManager = new D2_ProductManager();
         productManager.addToCart(product1);  // bir yerde yaz her yerde kullan, product1 artik bu metot ile birlikte
@@ -193,14 +193,14 @@ public class D1_Main {
         product5.unitPriceAfterDiscount = 2350; // elle girilmis bir indirim
 
 
-        //gercekte obje olusturma mantigi asagidaki gibi set ve set metotlari ile olur
+         //gercekte obje olusturma mantigi asagidaki gibi set ve set metotlari ile olur
          D2_Product product6 = new D2_Product();
          product6.setId1(6);
          product6.setName1("Asus Ultrabook T23");
          product6.setUnitPrice1(1900);
          product6.setDetail1("32 GB Ram");
          product6.setDiscount1(10);
-        System.out.println(product6.getUnitPriceAfterDiscount1());  // yazamiyoruz sadece okuyoruz
+         System.out.println(product6.getUnitPriceAfterDiscount1());  // yazamiyoruz sadece okuyoruz
         // UnitPriceAfterDiscount1 set'i olmadigindan ulasamayiz
 
 

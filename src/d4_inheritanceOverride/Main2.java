@@ -5,7 +5,7 @@ public class Main2 {
 
         CustomerManeger1 customerManeger1 = new CustomerManeger1();
         customerManeger1.add(new DatabeseLogger2());
-        //Ileride Databese yerine File ile calicagiz ve Email gönderecgiz dendiginde sadece referansi degistir tamamdir
+        //Ileride Databese yerine File ile calicagiz veya Email gönderecgiz dendiginde sadece referansi degistir tamamdir
 
 
 
