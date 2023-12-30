@@ -22,7 +22,7 @@ public class D2_Product {
     private double unitPrice1; // set i ve get i olabilir
     private String detail1; // set i ve get i olabilir
     private double discount1 = 10; // set i (write islemi) ve get i (read islemi) olabilir,
- // private double unitPriceAfterDiscount1;  // indirimi hesaplayan bir tanimi olmali yani sadece get olabilir
+ // private double unitPriceAfterDiscount1;   indirimi hesaplayan bir tanimi olmali yani sadece get olabilir
 
     // sadece get metodu olan field lari burada tutmanin bir anlami yok silinebilir, cünkü o bir metot olarak islam
     // görüyor artik, constuctor icinde de olmaz oradan da parametre olarak silinir
@@ -57,7 +57,7 @@ public class D2_Product {
         this.unitPrice1 = unitPrice1;
         this.detail1 = detail1;
         this.discount1 = discount1;
-        //  this.unitPriceAfterDiscount =  unitPriceAfterDiscount; // get oldugu icin yazilmasina gerek yok
+        //  this.unitPriceAfterDiscount =  unitPriceAfterDiscount;  get oldugu icin yazilmasina gerek yok
 
     }
 

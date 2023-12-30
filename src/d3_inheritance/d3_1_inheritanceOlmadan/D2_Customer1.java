@@ -1,6 +1,6 @@
-package d3_inheritance;
+package d3_inheritance.d3_1_inheritanceOlmadan;
 
-public class Customer1 {
+public class D2_Customer1 {
 
     //Bir müsterinin hangi alanlari olabilir
 
@@ -17,6 +17,7 @@ public class Customer1 {
     String firstName;
     String lastName;
     String natiaonalIdentity;   //(TC No)üzerinde bir islem yapmayacagimiz sayisal veriler Striong olarak girilir
+    String companyName;
     String taxNummer;      //(sirket vergi no) üzerinde bir islem yapmayacagimiz sayisal veriler Striong olarak girilir
 
 
