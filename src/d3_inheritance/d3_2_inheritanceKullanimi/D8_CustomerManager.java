@@ -35,7 +35,7 @@ public class D8_CustomerManager {
     //----------Bununarin yerine asagidaki metot ayni isi yapar--------------------------------
 
 
-    public void add(D4_Customer2 d4_customer2) { //kendinin ve cocuklarinin obje referanslari bu metotda calisacak
+    public void add(D4_Customer2 d4_customer2) { //kendinin ve cocuklarinin obje referanslari ile bu metot calisacak
         System.out.println(d4_customer2.cunstomerNummer + " Kaydedildi");
     }
 

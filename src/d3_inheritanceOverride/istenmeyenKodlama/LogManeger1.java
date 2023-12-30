@@ -1,4 +1,4 @@
-package d4_inheritanceOverride.istenmeyenKodlama;
+package d3_inheritanceOverride.istenmeyenKodlama;
 
 public class LogManeger1 {
     // Program icinde kimin ne zaman ne yaptigini tutmaya loglama denir

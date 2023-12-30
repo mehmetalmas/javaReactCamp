@@ -7,3 +7,4 @@ package d3_inheritance.d3_2_inheritanceKullanimi;
 public class D9_CustomerSendika extends D4_Customer2 {
     String sendikaName;
 }
+

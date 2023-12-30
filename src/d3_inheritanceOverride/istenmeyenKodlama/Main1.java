@@ -1,4 +1,4 @@
-package d4_inheritanceOverride.istenmeyenKodlama;
+package d3_inheritanceOverride.istenmeyenKodlama;
 
 public class Main1 {
     public static void main(String[] args) {

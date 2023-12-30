@@ -1,8 +1,8 @@
-package d4_inheritanceOverride;
+package d3_inheritanceOverride;
 
 public class CustomerManeger1 {
 
-/*  Meto bu sekilde yazmak ileride problem yaratir, baska yerlerde sürdürülebilir olmaz
+/*  Metot u bu sekilde yazmak ileride problem yaratir, baska yerlerde sürdürülebilir olmaz
 
     public void add() {
         System.out.println("Müsteri eklendi");

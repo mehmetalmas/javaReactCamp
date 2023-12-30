@@ -3,13 +3,15 @@ package d2_oopIntro;
 public class D2_NeOgrendim {
 
 /*
+      Ne Ögrendim - 2 gün
+
 
 1). Constructor olusturmadan obje olusturmanin kod tekrarina sebep oldugunu ve daha cok sey yazarak süreci uzattigini
 
                         ----------------------------------------------------------------------
 
-2). Bir sinifin aslinda ikiye bölünmesi gerektigini özellikleri tutan ve is yapan olarak, Product sinifi alanlari,
- constructur lari ve get ve set metolarini tutatken, ProduckManeger metotlari tutuyor
+2). Bir sinifin aslinda ikiye bölünmesi gerektigini, özellikleri tutan ve is yapan olarak, Product sinifi alanlari,
+ constructur lari ve get ve set metolarini tutatken, ProduckManeger metotlari tutmasi gerektigini
 
                         ----------------------------------------------------------------------
 
@@ -26,12 +28,12 @@ public class D2_NeOgrendim {
 
 4). Bir objeyi veya objeler array'e koymayi
 
-  D2_Product[] productsList = {product1};     // objenin referansi geciliyor
+  Product[] productsList = {product1};     // objenin referansi geciliyor
      System.out.println( "productsList uzunlugu = " + productsList.length); // 1 yazdirir, 1 tane obje elemani var
 
     veya
 
-  D2_Product[] productsList = {product1, product2, product3, product4};
+  Product[] productsList = {product1, product2, product3, product4};
         System.out.println( "productsList uzunlugu = " + productsList.length); // 4 yazdirir, 4 tane obje elemani var
 
                        ----------------------------------------------------------------------
@@ -51,14 +53,16 @@ public class D2_NeOgrendim {
 
                        ----------------------------------------------------------------------
 
-6). Bir metota obje gecerek alanlari ile bu metodu her yerde kullanabilecegimi
+6). Bir metota Sinifin referansini gecerek, bu siniftan olusturulan her objenin referanslari ile alanlarina metot
+    icinde  ulasabilecagimi ve bu metodu referansi gecilen sinifin objesinin oldugu her yerde kullanabilecegimi
+
 
     public void addToCart(Product product){
         System.out.println("Sepete eklendi " + product.id);
     }
 
 
-     * Produck sinifinda olusturulan her obje bu metodu kullabilir gecilen bu parametre sayesinde
+     * Produck sinifinda olusturulan her obje bu metodu kullabilir, gecilen bu parametre sayesinde
      * Bu metot is yaptigi icin ProductManager sinifinda olmali
      * addToCart(sepete ekle) genel de her ürünün(objenin) altinda olur, biz bunu bir kere yazip sinif referansini
      parametre olarak ayarlayinca bu sinifin tüm objeleri bu metodu kullanabiliyor. Bir degisiklik gerektiginde de bu
@@ -73,7 +77,7 @@ public class D2_NeOgrendim {
         productManager.addToCart(product4);
 
      * product1 referans ve Produck sinifinin bir objesi, digerleride öyle
-     * ürün1(product1) in altindaki addToCart butonuna basildiginda ürünü id numarsina göre sepete ekleyecek metot
+     * ürün1(product1) in altindaki addToCart butonuna basildiginda ürünü id numarsi ile sepete eklenecek
 
                    ----------------------------------------------------------------------
 
@@ -81,7 +85,7 @@ public class D2_NeOgrendim {
 
     * set ve get metotlari özellik sinifinda olmali
     * alanlari private yapmak isteriz böylece baska yerden alanlarimiz gözükmez ve degistirilemez
-    * ama bu alanlara yeni objeler olusturuken bir sekilde ulasip 0/*-yeni objeler icin atama yapilmasi gerekecek
+    * ama bu alanlara yeni objeler olusturuken bir sekilde ulasip yeni objeler icin atama yapilmasi gerekecek
     * private olan alanlara yazmak ve okumak icin set ve get metotlerina ihtiyac duyariz
     * set ile yazma yapar get ile okuma yapariz
     * alanlarin set veya get metotlarina ihtiyaci olup olmadigini programci karar verir
@@ -97,11 +101,10 @@ public class D2_NeOgrendim {
     }
 
     * Bir gün patron dedi ki tüm ürün isimlerinin sonunda ! olsun, simdi sen get ile objelerini olusturmadi isen
-    tüm objelerini bulup name lerin arkasina  + " ! " eklemelisin 100 lerce sinif 1000 lerce obje oldugunu düsün
-    ama get metodu ile objelerini olusturdu isen get metoduna gir metodun sonuna + " ! " ekle herye otomatik düzelsin
+    tüm objelerini bulup name lerin arkasina  + " ! " eklemelisin 100 lerce sinif 1000 lerce obje oldugunu düsün,
+    ama get metodu ile objelerini olusturdu isen get metoduna git metodun sonuna + " ! " ekle herye otomatik düzelsin
 
-
-
+                   ----------------------------------------------------------------------
 
 8). get ve set metotlarinin kullanimini
 
@@ -114,22 +117,13 @@ public class D2_NeOgrendim {
       System.out.println(product.getUnitPriceAfterDiscount1());  // yazamiyoruz sadece get ile okuyoruz
 
 
-     // UnitPriceAfterDiscount1 set'i olmadigindan ulasamayiz(atama yapilmaz) zaten buna ihtiyaci yok bir islem yapiyor
-
-
-
-
-
-
-
-
-
-
+     // UnitPriceAfterDiscount1 set'i olmadigindan ulasamayiz(atama yapilmaz) zaten buna ihtiyaci yok, bir islem yapiyor
 
 
 
 
  */
+
 
 
 

@@ -254,6 +254,7 @@ public class D1_Main {
         System.out.println(d2_category5.getName1());  // getName e  + "!"  ekledik böylece tüm isimlere  ! eklendi
         System.out.println(d2_category6.getName1());
         System.out.println(d2_category7.getName1());
+        System.err.println(d2_category7.getName1()); // renkli cikti
 
 
 

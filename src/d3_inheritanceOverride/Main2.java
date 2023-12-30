@@ -1,4 +1,4 @@
-package d4_inheritanceOverride;
+package d3_inheritanceOverride;
 
 public class Main2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package d4_inheritanceOverride;
+package d3_inheritanceOverride;
 
 public class Logger2 {
 
