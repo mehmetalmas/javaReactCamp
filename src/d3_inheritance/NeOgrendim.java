@@ -100,10 +100,20 @@ etmesi gerektigini
 
       ----------------------------------------------------------------------------------------
 
-6- Logger sinifinin tüm yapilan islemleri, tiklanan yerleri kaydettigini bu verilerin gönderildi yerlerin farkli
+6- Override nasil yapilir onu ögrendik
+
+    * cocuk siniflar ebeveyn siniflarinin metotlarini degistirerek yani seyler ekleyerek kullanabilirler
+
+
+    ----------------------------------------------------------------------------------------
+
+
+7- Logger sinifinin tüm yapilan islemleri, tiklanan yerleri kaydettigini bu verilerin gönderildi yerlerin farkli
    olabilecegini, bir dosya, bir database veya bir email olabilecegini, ayni sekilde burada veya bunun gibi durumlarda
    bir ebeveyn Logger sinifi sonra ondan verileri extends eden DatabaseLogger veya FileLogger larin olmasi gerektigini,
    sonucta mantigin degismedigini ögrendim
+
+
 
      */
 
