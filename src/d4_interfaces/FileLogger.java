@@ -8,17 +8,4 @@ public class FileLogger implements Logger{
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
