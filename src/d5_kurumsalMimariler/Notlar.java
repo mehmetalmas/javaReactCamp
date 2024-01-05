@@ -14,7 +14,8 @@ public class Notlar {
 
      1-Data Access = veriye erisim saglanan yer, burasi veri tabanidir ( veya Data Acces Layer, Online Architecture )
      MySQL / MongoDB / PostgreSQL / Excel / Metin Dosyasi
-     Buraya veriye erisim disinda asla bir kod yazilmaz
+     Buraya veriye erisim disinda asla bir kod yazilmaz, siniflar isimlendirirlirken ...Dao ile bitirilirler bu onlarin
+     data dosyasi olduklarini söyler
 
      2-Business = is kurallarinin yazildigi katman, mesela bir oyun da kisiye göre puanlama yapan bir
      if sart blogunun yazildigi yer burasidir veya bir sayfada en fazla 100 ürün ile sinirlandirilmasi icin kodlarin
@@ -38,6 +39,8 @@ public class Notlar {
          FileLogger gibi siniflar olur
          **abstracts(soyut demek) lar =
          önceki örnekteki Logger gibi interface ve abstract siniflari tutar
+
+         Bir yerde Entities ler haric bir yerde new liyorsak ileride problem yasayacagiz demektir
 
         *CORE =
         Bize tüm sistemimizde kullanabilecegimiz ve ayni zamanda yeni projelerimizde de kullanabilecegimiz

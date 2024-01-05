@@ -1,6 +1,15 @@
 package d5_kurumsalMimariler.entities.concretes;
 
-public class Product {
+import d5_kurumsalMimariler.entities.abstracts.Entity;
+
+public class Product implements Entity {
+
+    // sinifin böyle bir sekilde kalmasi, extends veya imlemente edilmemisse bize ileride problem cikarabilir,
+    // cünkü ileride tüm entities lere bir sinirlama getirelim dedigimizde bu ve vb seyleri yapamayiz. Bu
+    // sinifin ne oldugunu kurdugumuz sisteme belirtmemiz gerekiyor yani sen bir entities elemanisin, sen bir
+    // dataAccess elemanisin vb demeliyiz, bu bizi rahatlatir. Biz bu sinifa klasörü ile ayni bir
+    // interface olusturup ona sen bir Entity oldugunu belirttik. Entity interface bu sinifin referansini tutuyor
+
 
 
     private int id;
