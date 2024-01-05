@@ -1,10 +1,10 @@
-package d5_kurumsalMimariler;
+package d6.d5_kurumsalMimariler;
 
-import d5_kurumsalMimariler.business.abstracts.ProductService;
-import d5_kurumsalMimariler.business.concretes.ProductManeger;
-import d5_kurumsalMimariler.core.JLoggerManegerAdapter;
-import d5_kurumsalMimariler.dateAccess.concretes.HibernateProductDao;
-import d5_kurumsalMimariler.entities.concretes.Product;
+import d6.d5_kurumsalMimariler.business.abstracts.ProductService;
+import d6.d5_kurumsalMimariler.business.concretes.ProductManeger;
+import d6.d5_kurumsalMimariler.core.JLoggerManegerAdapter;
+import d6.d5_kurumsalMimariler.dateAccess.concretes.HibernateProductDao;
+import d6.d5_kurumsalMimariler.entities.concretes.Product;
 
 public class Main {
     public static void main(String[] args) {

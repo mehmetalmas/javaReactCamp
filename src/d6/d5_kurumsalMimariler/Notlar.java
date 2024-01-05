@@ -1,4 +1,4 @@
-package d5_kurumsalMimariler;
+package d6.d5_kurumsalMimariler;
 
 public class Notlar {
 

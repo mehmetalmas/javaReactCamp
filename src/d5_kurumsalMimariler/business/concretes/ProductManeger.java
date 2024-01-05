@@ -1,6 +1,7 @@
 package d5_kurumsalMimariler.business.concretes;
 
 import d5_kurumsalMimariler.business.abstracts.ProductService;
+import d5_kurumsalMimariler.core.LoggerService;
 import d5_kurumsalMimariler.dateAccess.abstracts.ProductDao;
 import d5_kurumsalMimariler.entities.concretes.Product;
 import java.util.List;
@@ -12,9 +13,11 @@ public class ProductManeger implements ProductService {
     //--------------Dependency Injection-------------
 
     private ProductDao productdao; // HibernateProductDao referansini tutan interface olan ProductDao
+    private LoggerService loggerService; //
 
-    public ProductManeger(ProductDao productdao) { //ProductDao gecerek ProductDao yu imlement edenlerin bu constructuru
-        this.productdao = productdao;              // kullanbilmesini istiyoruz HibernateProductDao bunu kullanabilir
+    public ProductManeger(ProductDao productdao, LoggerService loggerService) {
+        this.productdao = productdao;              //ProductDao gecerek ProductDao yu imlement edenlerin bu constructuru
+        this.loggerService= loggerService;         // kullanbilmesini istiyoruz HibernateProductDao bunu kullanabilir
                                                    // productdao referansi ile HibernateProductDao elemanlarina
                                                    // ulasabilecegiz
     }
@@ -34,9 +37,11 @@ public class ProductManeger implements ProductService {
         }
 
         // sonra ekle
-        this.productdao.addToData(product);  // Dependency Injection, bagilik tan kurtulmak icin böyle kullanilir
-                                       // bu metot ürünü dataya ekleyecek, productdao interface böylece interface
-                                       // üzerinden calisiyoruz
+        this.productdao.addToData(product);  // Dependency Injection, bagilik tan kurtulmak icin böyle kullanilir.
+        // Bu metot ürünü dataya ekleyecek, productdao interface böylece interface üzerinden calisiyoruz
+
+        this.loggerService.logToSystem("Ürün eklendi : " + product.getName()); // baska bir dosyayi veya mikro servisi ekleme
+
     }
 
 
