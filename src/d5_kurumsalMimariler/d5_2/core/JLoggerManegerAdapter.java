@@ -1,6 +1,6 @@
-package d6.d5_kurumsalMimariler.core;
+package d5_kurumsalMimariler.d5_2.core;
 
-import d6.d5_kurumsalMimariler.jLogger.JLoggerManeger;
+import d5_kurumsalMimariler.d5_2.jLogger.JLoggerManeger;
 
 public class JLoggerManegerAdapter implements LoggerService {
 

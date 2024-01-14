@@ -1,9 +1,9 @@
-package d6.d5_kurumsalMimariler.business.concretes;
+package d5_kurumsalMimariler.d5_2.business.concretes;
 
-import d6.d5_kurumsalMimariler.business.abstracts.ProductService;
-import d6.d5_kurumsalMimariler.core.LoggerService;
-import d6.d5_kurumsalMimariler.dateAccess.abstracts.ProductDao;
-import d6.d5_kurumsalMimariler.entities.concretes.Product;
+import d5_kurumsalMimariler.d5_2.business.abstracts.ProductService;
+import d5_kurumsalMimariler.d5_2.core.LoggerService;
+import d5_kurumsalMimariler.d5_2.dateAccess.abstracts.ProductDao;
+import d5_kurumsalMimariler.d5_2.entities.concretes.Product;
 
 import java.util.List;
 

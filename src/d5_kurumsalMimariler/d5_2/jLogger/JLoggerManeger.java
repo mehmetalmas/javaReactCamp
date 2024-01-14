@@ -1,4 +1,4 @@
-package d6.d5_kurumsalMimariler.jLogger;
+package d5_kurumsalMimariler.d5_2.jLogger;
 
 public class JLoggerManeger {
 

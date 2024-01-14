@@ -1,8 +1,6 @@
-package d6.d5_kurumsalMimariler.dateAccess.concretes;
-
-import d6.d5_kurumsalMimariler.dateAccess.abstracts.ProductDao;
-import d6.d5_kurumsalMimariler.entities.concretes.Product;
-
+package d5_kurumsalMimariler.d5_2.dateAccess.concretes;
+import d5_kurumsalMimariler.d5_2.dateAccess.abstracts.ProductDao;
+import d5_kurumsalMimariler.d5_2.entities.concretes.Product;
 import java.util.List;
 
 public class AbcProductDao implements ProductDao {

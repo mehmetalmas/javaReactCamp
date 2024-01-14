@@ -1,6 +1,5 @@
-package d6.d5_kurumsalMimariler.entities.concretes;
-
-import d6.d5_kurumsalMimariler.entities.abstracts.Entity;
+package d5_kurumsalMimariler.d5_2.entities.concretes;
+import d5_kurumsalMimariler.d5_2.entities.abstracts.Entity;
 
 public class Product implements Entity {
 
@@ -9,8 +8,6 @@ public class Product implements Entity {
     private String name;
     private double unitPrice;
     private int unitsInStock;
-
-
 
     public Product(){
     }
@@ -27,57 +24,32 @@ public class Product implements Entity {
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public int getCategoryId() {
         return categoryId;
     }
-
     public void setCategoryId(int categoryId) {
         this.categoryId = categoryId;
     }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public double getUnitPrice() {
         return unitPrice;
     }
-
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
-
     public int getUnitsInStock() {
         return unitsInStock;
     }
-
     public void setUnitsInStock(int unitsInStock) {
         this.unitsInStock = unitsInStock;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
